@@ -1,1 +1,1 @@
-sudo docker exec -it orbslam3 bash
+docker exec -it orbslam3 bash
