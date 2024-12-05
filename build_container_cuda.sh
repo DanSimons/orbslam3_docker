@@ -40,6 +40,7 @@ docker run -td  --net=host --ipc=host \
     -v /etc/group:/etc/group:ro \
     -v `pwd`/ORB_SLAM3:/root/Packages/ORB_SLAM3 \
     -v `pwd`/scripts:/root/scripts \
+    --workdir /root/ \
     jahaniam/orbslam3:ubuntu20_noetic_cuda bash
 
 # Git pull orbslam and compile
