@@ -1,2 +1,4 @@
 Datasets/*
 ORB_SLAM3/*
+
+*.bag

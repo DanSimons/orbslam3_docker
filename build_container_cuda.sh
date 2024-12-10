@@ -31,6 +31,7 @@ docker run -td  --net=host --ipc=host \
     --name="orbslam3" \
     --gpus=all \
     --memory=8g \
+    --memory-swap=-1 \
     -e "DISPLAY=$DISPLAY" \
     -e "QT_X11_NO_MITSHM=1" \
     -v "/tmp/.X11-unix:/tmp/.X11-unix:rw" \
@@ -39,6 +40,7 @@ docker run -td  --net=host --ipc=host \
     -v `pwd`/Datasets:/Datasets \
     -v /etc/group:/etc/group:ro \
     -v `pwd`/ORB_SLAM3:/root/Packages/ORB_SLAM3 \
+    -v `pwd`/config:/root/config \
     -v `pwd`/scripts:/root/scripts \
     --workdir /root/ \
     jahaniam/orbslam3:ubuntu20_noetic_cuda bash

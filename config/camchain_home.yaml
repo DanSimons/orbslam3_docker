@@ -1,0 +1,48 @@
+%YAML:1.0
+  Camera.RGB: 1
+  Camera.fps: 20
+  Camera.height: 480
+  Camera.type: PinHole
+  Camera.width: 640
+  Camera1.cx: 322.4206654246114
+  Camera1.cy: 214.52758108028792
+  Camera1.fx: 440.80102691038604
+  Camera1.fy: 440.2862303206829
+  Camera1.k1: 0.15522587557909306
+  Camera1.k2: -0.16057199322943916
+  Camera1.p1: -0.001977304744623189
+  Camera1.p2: 0.0014064765145326075
+  Camera2.cx: 313.9820270783836
+  Camera2.cy: 232.22509730756425
+  Camera2.fx: 441.3580965756471
+  Camera2.fy: 441.03373287836666
+  Camera2.k1: 0.14287188149680355
+  Camera2.k2: -0.1373777993471041
+  Camera2.p1: -0.0014551959115517198
+  Camera2.p2: 0.0013593696887669077
+  File.version: '1.0'
+  ORBextractor.iniThFAST: 20
+  ORBextractor.minThFAST: 7
+  ORBextractor.nFeatures: 1200
+  ORBextractor.nLevels: 8
+  ORBextractor.scaleFactor: 1.2
+  Stereo.T_c1_c2:
+    cols: 4
+    data: [0.9988428511381309, -0.04695974744424713, 0.010379829007121049, 0.12427062072164696,
+      0.04719217147690583, 0.9986113986042858, -0.02341310592128363, 0.0015524633392944972,
+      -0.009265942021125623, 0.023875860142819075, 0.999671989014845, -0.0019328020591971523,
+      0.0, 0.0, 0.0, 1.0]
+    dt: f
+    rows: 4
+  Stereo.ThDepth: 60.0
+  Viewer.CameraLineWidth: 3.0
+  Viewer.CameraSize: 0.08
+  Viewer.GraphLineWidth: 0.9
+  Viewer.KeyFrameLineWidth: 1.0
+  Viewer.KeyFrameSize: 0.05
+  Viewer.PointSize: 2.0
+  Viewer.ViewpointF: 500.0
+  Viewer.ViewpointX: 0.0
+  Viewer.ViewpointY: -0.7
+  Viewer.ViewpointZ: -1.8
+  Viewer.imageViewScale: 1.0
